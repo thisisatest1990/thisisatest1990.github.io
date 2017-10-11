@@ -400,11 +400,8 @@ a:after {
 }
 
 #purplewrap p {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding: 15px;
     text-align: left;
-    /*    -moz-text-align-last: center;  Code for Firefox
-    text-align-last: center;*/
 }
 
 #purplewrap .icon {
