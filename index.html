@@ -57,7 +57,7 @@
                         <li> <a href="#education" class="smoothScroll toplinks" style="font-weight: 500;">Education</a></li>
                         <li> <a href="#work" class="smoothScroll toplinks" style="font-weight: 500;">Experience</a></li>
                         <li> <a href="#projects" class="smoothScroll toplinks" style="font-weight: 500;">Projects</a></li>
-                        <li> <a href="#contact" class="smoothScroll toplinks" style="font-weight: 500;">Contact Info</a></li>
+                        <li> <a href="#contactinfo" class="smoothScroll toplinks" style="font-weight: 500;">Contact Info</a></li>
       </ul>
     </div>
 
@@ -373,22 +373,26 @@
     
     <!-- greywrap -->
     <!-- //////////////////////////////////////////////// CONTACT SECTION ////////////////////////////////////////////////  -->
-    <div id="yellowwrap" class="col-lg-12">
-        <div class="top-contact-sec" id="contact">
-            <h2 class="centered sechead hWhite">Contact Information</h2>
-            <div class="form-message" data-sr="wait 0.1s enter bottom over 1s">
-                <h4 class="centered">You can contact me with any of the following ways below:</h4>
-<tbody>
+			<div class="modal fade" id="contactinfo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+						<h4 class="modal-title" id="myModalLabel">Contact Information</h4>
+					</div> <!-- /.modal-header -->
+
+					<div class="modal-body">
+						<div>
+							<table class="table table-striped">
+								<tbody>
 									<tr>
 										<td><i class="fa fa-envelope"></i> Email</td>
 										<td><a href="mailto:u1167937@alumni.hud.ac.uk">u1167937@alumni.hud.ac.uk</a></td>
 									</tr>
-	<br>
 									<tr>
 										<td><i class="fa fa-mobile"></i> Phone Number</td>
 										<td>07480990332</td>
 									</tr>
-	<br>
 									<tr>
 										<td><i class="fa fa-address-book"></i> Address</td>
 										<td>
@@ -401,10 +405,13 @@
 											</address>
 										</td>
 									</tr>
-								</tbody>		    
-            </div>
-        </div>
-    </div>
+								</tbody>
+							</table>
+						</div>
+					</div> <!-- /.modal-body -->
+				</div><!-- /.modal-content -->
+			</div><!-- /.modal-dialog -->
+		</div><!-- /.modal -->
 	
         <!-- MODAL-->
         <div class="modal fade" id="module" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="background: rgba(93, 71, 150, 0.95) none repeat scroll 0% 0% !important;">
