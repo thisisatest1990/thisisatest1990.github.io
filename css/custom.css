@@ -1078,11 +1078,9 @@ transition: all 0.2s;
 /*Design Process Section Styles*/
 
 .process-p {
-    width: 85%;
     text-align: justify;
-    text-align-last: center;
-    margin-left: auto;
-    margin-right: auto;
+font-size: medium;
+color: white;
 }
 
 .soon {
