@@ -42,31 +42,6 @@ body {
 }
 
 
-
-hr {
-    position: relative;
-    border: none;
-}
-
-hr:before {
-    content: " ";
-    position: absolute;
-    top: 0;
-    left: 25%;
-    width: 50%;
-    height: 2px;
-    background: #ccc;
-}
-
-a img {
-    /* background: #323232; */
-}
-
-.odd a img {
-    background: #f5f5f5;
-}
-
-
 /* Titles */
 
 h1,
