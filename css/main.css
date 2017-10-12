@@ -2,64 +2,6 @@
    Base Styles and Bootstrap Modifications
    ========================================================================== */
 
-body {
-    font-size: 1em;
-    line-height: 1.4;
-}
-
-
-/*
- * Remove text-shadow in selection highlight: h5bp.com/i
- * These selection rule sets have to be separate.
- * Customize the background color to match your design.
- */
-
-::-moz-selection {
-    background: #f2c2c9;
-    color: #a4003a;
-    text-shadow: none;
-}
-
-::selection {
-    background: #f7960b;
-    color: #ffffff;
-    text-shadow: none;
-}
-
-
-/*
- * A better looking default horizontal rule
- */
-
-
-/* hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
-}*/
-
-
-/*
- * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
- */
-
-img {
-    vertical-align: middle;
-}
-
-
-/*
- * Allow only vertical resizing of textareas.
- */
-
-textarea {
-    resize: vertical;
-}
-
-
 /* ==========================================================================
    General styles
    ========================================================================== */
