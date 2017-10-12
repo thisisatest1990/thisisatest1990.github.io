@@ -347,8 +347,118 @@ div#particles-js {
     background-color: #FAFAFA;
 }
 
+.fa {
+    cursor: auto;
+}
 
 
+.article-link {
+    text-align: left;
+}
+
+/* -- Full Modal Overrides -- */
+
+.modal-dialog {
+    width: 100% !important;
+    height: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    opacity: 1;
+}
+
+.modal-content {
+    border-radius: 0 !important;
+}
+
+.modal-content-style i {
+    font-size: 37px;
+    color: white;
+}
+
+.modal-content-style p {
+    margin-top: 15px;
+    text-align: center;
+    line-height: 21px;
+}
+
+.modal-content-style a {
+    color: #FFFFFF;
+}
+
+.modal-content-style a:hover {
+    color: #f7960b;
+}
+
+.modal-body-text {
+    margin-top: 15vh;
+}
+
+.modal-text {
+    text-align: justify;
+    color: #FFFFFF;
+}
+
+.modal-text a {
+    text-align: justify;
+    color: #FFFFFF;
+}
+
+.modal-text a:hover {
+    text-align: justify;
+    color: #f7960b;
+}
+
+.modal-links a {
+    color: #FFFFFF !important;
+    line-height: 120px !important;
+    font-size: 50px !important;
+    opacity: 0.8;
+}
+
+.modal-closer {
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.modal-closer i {
+    color: #FFFFFF;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+/*No Scroll Classes*/
+
+.modal.fade .modal-dialog {
+-webkit-transform: scale(0.2);
+-moz-transform: scale(0.2);
+-ms-transform: scale(0.2);
+transform: scale(0.2);
+top: 300px;
+opacity: 0;
+-webkit-transition: all 0.2s;
+-moz-transition: all 0.2s;
+transition: all 0.2s;
+}
+
+.modal.fade.in .modal-dialog {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    -webkit-transform: translate3d(0, -300px, 0);
+    transform: translate3d(0, -300px, 0);
+    opacity: 1;
+}
+
+/*Design Process Section Styles*/
+
+.process-p {
+    text-align: justify;
+font-size: medium;
+color: white;
+}
 
 /* Model */
 .modal-header {
