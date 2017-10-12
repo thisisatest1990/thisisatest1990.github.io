@@ -1,0 +1,7 @@
+# Site Settings
+title: Github Portfolio Site
+email: u1167937@alumni.hud.ac.uk
+description: >
+  Github site made with jekyll to show my portfolio.
+baseurl: ""
+url: "https://faserparvez.github.io/"
