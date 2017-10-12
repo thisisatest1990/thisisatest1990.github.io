@@ -1,8 +1,13 @@
+/* ==========================================================================
+   Base Styles and Bootstrap Modifications
+   ========================================================================== */
+
 html,
 button,
 input,
 select,
 textarea {
+    /*formerly #FDFDFD*/
     color: #FFFFFF;
 }
 
@@ -29,6 +34,21 @@ body {
     color: #ffffff;
     text-shadow: none;
 }
+
+
+/*
+ * A better looking default horizontal rule
+ */
+
+
+/* hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}*/
 
 
 /*
@@ -72,6 +92,11 @@ body {
 .col-md-4 {
     padding-bottom: 20px;
 }
+
+/*.row {
+    margin-right: 0px;
+    margin-left: -15px;
+}*/
 
 .modal-header {
     background: -moz-linear-gradient(90deg, #5D4796 0%, #463570 100%);
@@ -265,7 +290,22 @@ a:after {
    ========================================================================== */
 
 .headerwrap {
+    /*  background: url(../img/bgjuanwhite.png) no-repeat center top;
+    text-align:center;
+    background-attachment: relative;
+    background-position: center center;
+    /*min-height: 580px;*/
     min-height: 100vh;
+
+    /*    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;*/
 }
 
 #particle-js {
@@ -292,6 +332,8 @@ a:after {
     font-size: 35px;
     font-weight: 400;
     text-align: center;
+    /*line-height: 45px;*/
+    /*letter-spacing: 3px;*/
     padding-top: 10px;
 }
 
@@ -300,7 +342,11 @@ a:after {
     background: #FFFFFF;
     margin-top: -30px;
     padding-top: 40px;
+    /*  border-bottom: 1px solid #ddd;*/
     text-align: center;
+    /*    -webkit-box-shadow: 0px 0px 67px 36px rgba(3,10,18,1);
+    -moz-box-shadow: 0px 0px 67px 36px rgba(3,10,18,1);
+    box-shadow: 0px 0px 67px 36px rgba(3,10,18,1);*/
 }
 
 #greywrap .callout {
@@ -310,6 +356,7 @@ a:after {
 #greywrap p {
     margin-left: 30px;
     margin-right: 30px;
+    /*letter-spacing: 1px;*/
     padding-top: 15px;
     padding-bottom: 15px;
     text-align: justify;
@@ -618,6 +665,15 @@ a:after {
     transition: transform 0.4s;
 }
 
+
+/*.no-touch .mask figure:hover img,
+.mask figure.cs-hover img {
+    -webkit-transform: translateY(-30px);
+    -moz-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    transform: translateY(-30px);
+}*/
+
 .mask figcaption {
     height: 50px;
     width: 100%;
@@ -632,6 +688,19 @@ a:after {
     -moz-transition: -moz-transform 0.4s, opacity 0.1s 0.3s;
     transition: transform 0.4s, opacity 0.1s 0.3s;
 }
+
+
+/*.no-touch .mask figure:hover figcaption,
+.mask figure.cs-hover figcaption {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    transform: translateY(0px);
+    -webkit-transition: -webkit-transform 0.4s, opacity 0.1s;
+    -moz-transition: -moz-transform 0.4s, opacity 0.1s;
+    transition: transform 0.4s, opacity 0.1s;
+}*/
 
 .mask figcaption a {
     position: absolute;
