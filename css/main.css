@@ -1,8 +1,4 @@
 /* ==========================================================================
-   Base Styles and Bootstrap Modifications
-   ========================================================================== */
-
-/* ==========================================================================
    General styles
    ========================================================================== */
 
@@ -12,7 +8,6 @@ body {
 }
 
 body {
-    /*formerly #FDFDFD*/
     background-color: #FFFFFF;
     font-family: Helvetica, Arial, sans-serif;
     font-weight: 400;
@@ -26,52 +21,27 @@ body {
     padding-bottom: 20px;
 }
 
-/*.row {
-    margin-right: 0px;
-    margin-left: -15px;
-}*/
 
+/* Model */
 .modal-header {
     background: -moz-linear-gradient(90deg, #5D4796 0%, #463570 100%);
+   background: -moz-linear-gradient(90deg, #0668A7 0%, #0f90d7 100%);
     /* ff3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #463570), color-stop(100%, #5D4796));
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #0f90d7), color-stop(100%, #0668A7));
     /* safari4+,chrome */
-    background: -webkit-linear-gradient(90deg, #5D4796 0%, #463570 100%);
+    background: -webkit-linear-gradient(90deg, #0668A7 0%, #0f90d7 100%);
     /* safari5.1+,chrome10+ */
-    background: -o-linear-gradient(90deg, #5D4796 0%, #463570 100%);
+    background: -o-linear-gradient(90deg, #0668A7 0%, #0f90d7 100%);
     /* opera 11.10+ */
-    background: -ms-linear-gradient(90deg, #5D4796 0%, #463570 100%);
+    background: -ms-linear-gradient(90deg, #0668A7 0%, #0f90d7 100%);
     /* ie10+ */
-    background: linear-gradient(0deg, #5D4796 0%, #463570 100%);
+    background: linear-gradient(0deg, #0668A7 0%, #0f90d7 100%);
     /* w3c */
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#463570', endColorstr='#5D4796', GradientType=0);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#0f90d7', endColorstr='#0668A7', GradientType=0);
     /* ie6-9 */
 }
 
-.modal-header h4 {
-    color: #FFFFFF;
-    font-weight: 600
-}
 
-.modal-footer {
-    background: #FFFFFF;
-}
-
-.navbar-default {
-    border-color: transparent;
-    background-color: #dadada;
-}
-
-.navbar-toggle {
-    border-color: transparent;
-    border: 0px solid transparent;
-}
-
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus {
-    background-color: #16a085;
-    color: #323232;
-}
 
 hr {
     position: relative;
