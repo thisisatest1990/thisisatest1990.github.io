@@ -2,15 +2,6 @@
    Base Styles and Bootstrap Modifications
    ========================================================================== */
 
-html,
-button,
-input,
-select,
-textarea {
-    /*formerly #FDFDFD*/
-    color: #FFFFFF;
-}
-
 body {
     font-size: 1em;
     line-height: 1.4;
