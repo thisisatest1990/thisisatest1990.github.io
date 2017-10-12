@@ -1,22 +1,7 @@
-h2.centered.sechead {
-    font-weight: bold;
-    letter-spacing: -1px;
-    font-size: 28px;
-    letter-spacing: 1px;
-}
-
 h2.topicon.sechead {
     font-weight: 500;
     letter-spacing: -1px;
     font-size: 28px;
-}
-
-h3.centered.sechead {
-    font-weight: 500;
-    letter-spacing: -1px;
-    font-size: 18pt;
-    letter-spacing: 1px;
-    color: #F7960F;
 }
 
 h3.topicon.sechead {
