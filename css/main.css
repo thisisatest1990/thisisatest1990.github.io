@@ -87,6 +87,59 @@ div#boldsharp li {
     background-color: rgba(255, 255, 255, 0.2);
 }
 
+h2.topicon.sechead {
+    font-weight: 500;
+    letter-spacing: -1px;
+    font-size: 28px;
+}
+
+h3.topicon.sechead {
+    font-weight: 300;
+    letter-spacing: -1px;
+    font-size: 18pt;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+
+.whitebg {
+    transition: opacity 800 ease-in-out;
+    background: rgba(255,255,255,.95);
+    -webkit-box-shadow: 0 5px 6px -5px #bababa;
+    -moz-box-shadow: 0 5px 6px -5px #bababa;
+    box-shadow: 0 5px 6px -5px #bababa;
+}
+
+.firstsec {
+    margin-top: 100px;
+}
+
+.purplesec {
+    margin-top: 10px;
+    color: #3fbeb0;
+    font-weight: bold;
+    letter-spacing: -1px;
+    font-size: 28px;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+.headshot-ct {
+    max-width: 100%;
+}
+
+.headshot {
+    width: 100%;
+}
+
+#aboutSec p {
+    font-size: 12pt;
+    font-weight: 100;
+    color: #ffffff;
+}
+
 
 
 
