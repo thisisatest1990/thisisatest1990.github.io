@@ -1,12 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 {% include head.html %}
 
-<body style="background-color: #24292e;">
-	{% include header.html %}
-	{% include contact.html %}
+<body offset="0" data-target="#navbar-main">
+	{% include navbar.html.html %}
+	{% include about.html.html %}
+	{% include skills.html.html %}
+	{% include education.html.html %}
+	{% include experience.html.html %}
+	{% include project.html %}
 	{{ content }}
-
+	{% include projectmodel.html %}
+	{% include contact.html %}
+	{% include footer.html %}
 </body>
-
 </html>
