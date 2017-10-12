@@ -126,14 +126,6 @@ blockquote cite:before {
     content: "-- "
 }
 
-
-/* Images */
-
-.overflow-image {
-    margin-top: -65px;
-}
-
-
 /* Links */
 
 a {
