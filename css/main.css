@@ -52,7 +52,40 @@ img.center-block.img-responsive.special-width {
     padding-top: 120px;
 }
 
+.special-line-height {
+    line-height: 20px;
+}
 
+.small-font {
+font-size: 20px;
+font-weight: 800;
+color: #FFF;
+}
+
+.cont {
+    margin-right: 28px;
+}
+
+
+ul.nav.navbar-nav {
+    float: right !important;
+}
+
+#boldsharp a {
+    font-family: "Helvetica", Sans-Serif !important;
+    font-weight: : 600 !important;
+    color: #323232 !important;
+    letter-spacing: -1px !important;
+    font-size: 13pt;
+}
+
+#boldsharp a:hover {
+    color: #f7960b !important;
+}
+
+div#boldsharp li {
+    background-color: rgba(255, 255, 255, 0.2);
+}
 
 
 
