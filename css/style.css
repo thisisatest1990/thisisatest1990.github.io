@@ -34,7 +34,7 @@ i {
 
 /*navbar*/
 
-.navbar.navbar-inverse.navbar-fixed-top {
+.navbar.navbar-fixed-top {
     height: 60px;
 }
 
@@ -84,10 +84,6 @@ ul.nav.navbar-nav {
     color: #f7960b !important;
 }
 
-div#boldsharp li {
-    background-color: rgba(255, 255, 255, 0.2);
-}
-
 h2.topicon.sechead {
     font-weight: 500;
     letter-spacing: -1px;
@@ -107,7 +103,7 @@ h3.topicon.sechead {
 
 .whitebg {
     transition: opacity 800 ease-in-out;
-    background: rgba(255,255,255,.95);
+    background: #24292e;
     -webkit-box-shadow: 0 5px 6px -5px #bababa;
     -moz-box-shadow: 0 5px 6px -5px #bababa;
     box-shadow: 0 5px 6px -5px #bababa;
