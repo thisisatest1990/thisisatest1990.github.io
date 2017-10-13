@@ -72,7 +72,7 @@ ul.nav.navbar-nav {
     float: right !important;
 }
 
-#navitems a {
+#boldsharp a {
     font-family: "Helvetica", Sans-Serif !important;
     font-weight: : 600 !important;
     color: #323232 !important;
@@ -80,11 +80,11 @@ ul.nav.navbar-nav {
     font-size: 13pt;
 }
 
-#navitems a:hover {
+#boldsharp a:hover {
     color: #f7960b !important;
 }
 
-div#navitems li {
+div#boldsharp li {
     background-color: rgba(255, 255, 255, 0.2);
 }
 
