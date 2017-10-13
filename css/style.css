@@ -676,26 +676,29 @@ a:after {
 }
 
 #purplewrap {
-    background: -moz-linear-gradient(90deg, #5D4796 0%, #463570 100%);
-    /* ff3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #463570), color-stop(100%, #5D4796));
-    /* safari4+,chrome */
-    background: -webkit-linear-gradient(90deg, #5D4796 0%, #463570 100%);
-    /* safari5.1+,chrome10+ */
-    background: -o-linear-gradient(90deg, #5D4796 0%, #463570 100%);
-    /* opera 11.10+ */
-    background: -ms-linear-gradient(90deg, #5D4796 0%, #463570 100%);
-    /* ie10+ */
-    background: linear-gradient(0deg, #5D4796 0%, #463570 100%);
-    /* w3c */
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#463570', endColorstr='#5D4796', GradientType=0);
-    /* ie6-9 */
+    background: linear-gradient(221deg, #221deg, #939d9b);
+     -webkit-animation: purplewrap 5s ease infinite;
+-moz-animation: purplewrap 5s ease infinite;
+animation: purplewrap 5s ease infinite;
     padding-top: 40px;
-    /*  border-bottom: 1px solid #ddd;*/
     text-align: left;
-    /*    -webkit-box-shadow: 0px 0px 67px 36px rgba(3,10,18,1);
-    -moz-box-shadow: 0px 0px 67px 36px rgba(3,10,18,1);
-    box-shadow: 0px 0px 67px 36px rgba(3,10,18,1);*/
+}
+
+
+@-webkit-keyframes purplewrap {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes purplewrap {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes purplewrap {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
 }
 
 
