@@ -46,16 +46,7 @@ ul.nav.navbar-nav {
     color: #f7960b;
 }
 
-.navbar-header div {
-    height: 100%;
-}
 
-.navbar-header img {
-    margin: 0px;
-    padding: 0px;
-    height: 100%;
-    border: none;
-}
 
 img.center-block.img-responsive.special-width {
     width: 1100px;
