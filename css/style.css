@@ -46,7 +46,11 @@ ul.nav.navbar-nav {
     color: #f7960b;
 }
 
-.navbar-brand img {
+.navbar-header div {
+    height: 100%;
+}
+
+.navbar-header img {
     margin: 0px;
     padding: 0px;
     height: 100%;
