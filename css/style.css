@@ -5,6 +5,11 @@
 html,
 body {
     width: 100%;
+   background: #1a2434;
+color: #b0b6c1;
+font-family: soleil,sans-serif;
+text-align: center;
+overflow-x: hidden;
 }
 
 body {
