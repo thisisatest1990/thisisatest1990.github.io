@@ -35,12 +35,6 @@ i {
 /*navbar*/
 
 .c-header {
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
-    -webkit-box-shadow: 0 .125rem .25rem .25rem rgba(0, 0, 0, .6);
-    box-shadow: 0 .125rem .25rem .25rem rgba(0, 0, 0, .6);
-    background-color: #1C2C34;
-    z-index: 1;
 }
 
 .navbar.navbar-fixed-top {
@@ -111,11 +105,13 @@ h3.topicon.sechead {
 
 
 .whitebg {
-    transition: opacity 800 ease-in-out;
-    background: #24292e;
-    -webkit-box-shadow: 0 5px 6px -5px #bababa;
-    -moz-box-shadow: 0 5px 6px -5px #bababa;
-    box-shadow: 0 5px 6px -5px #bababa;
+    transition: opacity 800 ease-in-out;     
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    -webkit-box-shadow: 0 .125rem .25rem .25rem rgba(0, 0, 0, .6);
+    box-shadow: 0 .125rem .25rem .25rem rgba(0, 0, 0, .6);
+    background-color: #1C2C34;
+    z-index: 1;   
 }
 
 .firstsec {
