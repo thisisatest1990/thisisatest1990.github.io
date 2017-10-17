@@ -81,12 +81,9 @@ ul.nav.navbar-nav {
     font-size: 13pt;
 }
 
-#boldsharp a:hover {
-    color: #f7960b !important;
-    background-color: #1C2C34 !important;
-}
-
-#boldsharp a:active {
+#boldsharp a:hover,
+#boldsharp a:active,
+#boldsharp a:visited {
     color: #f7960b !important;
     background-color: #1C2C34 !important;
 }
