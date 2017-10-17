@@ -86,6 +86,11 @@ ul.nav.navbar-nav {
     background-color: #1C2C34 !important;
 }
 
+#boldsharp a:active {
+    color: #f7960b !important;
+    background-color: #1C2C34 !important;
+}
+
 div#boldsharp li {
     background-color: rgba(255, 255, 255, 0.2);
 }
