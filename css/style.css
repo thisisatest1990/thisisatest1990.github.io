@@ -30,7 +30,14 @@ i {
 
 /*navbar*/
 
-.c-header {
+.n-header {
+    transition: opacity 800 ease-in-out;     
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    -webkit-box-shadow: 0 .125rem .25rem .25rem rgba(0, 0, 0, .6);
+    box-shadow: 0 .125rem .25rem .25rem rgba(0, 0, 0, .6);
+    background-color: #1C2C34;
+    z-index: 1;   
 }
 
 .navbar.navbar-fixed-top {
@@ -44,6 +51,17 @@ ul.nav.navbar-nav {
 .topicon {
     color: #f7960b;
 }
+
+
+
+/* --------------------------------- */
+
+
+
+
+
+
+
 
 
 
@@ -97,17 +115,6 @@ h3.topicon.sechead {
 
 .bold {
     font-weight: bold;
-}
-
-
-.whitebg {
-    transition: opacity 800 ease-in-out;     
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
-    -webkit-box-shadow: 0 .125rem .25rem .25rem rgba(0, 0, 0, .6);
-    box-shadow: 0 .125rem .25rem .25rem rgba(0, 0, 0, .6);
-    background-color: #1C2C34;
-    z-index: 1;   
 }
 
 .firstsec {
