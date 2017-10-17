@@ -105,13 +105,24 @@ div#boldsharp li {
 }
 
 .s-holder::after {
-    content: "";
-    display: inline-block;
-    cursor: pointer;
-    width: 10px;
-    height: 10px;
-    background-repeat: no-repeat;
-    background-image: url("/images/me-face.png");
+    display: block;
+    bottom: -6px;
+    bottom: -.375rem;
+}
+
+.s-holder::after, .s-holder::before {
+    background: #071820;
+    -webkit-box-shadow: 0 0 .1875rem 0 #91B5C5,inset 0 .0625rem .25rem 0 #071820;
+    box-shadow: 0 0 .1875rem 0 #91B5C5,inset 0 .0625rem .25rem 0 #071820;
+    content: '';
+    display: none;
+    height: 5px;
+    height: .3125rem;
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+    left: 0;
+    right: 0;
 }
 
 /*----------------------------------*/
