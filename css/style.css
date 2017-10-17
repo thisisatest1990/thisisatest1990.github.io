@@ -73,7 +73,7 @@ ul.nav.navbar-nav {
     float: right !important;
 }
 
-#nav-links a {
+#boldsharp a {
     font-family: "Helvetica", Sans-Serif !important;
     font-weight: : 600 !important;
     color: #fff !important;
@@ -81,7 +81,7 @@ ul.nav.navbar-nav {
     font-size: 13pt;
 }
 
-#nav-links a:hover {
+#boldsharp a:hover {
     color: #f7960b !important;
 }
 /* ---------------------------------*/
