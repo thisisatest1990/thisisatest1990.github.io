@@ -82,8 +82,7 @@ ul.nav.navbar-nav {
 }
 
 #boldsharp a:hover,
-#boldsharp a:active,
-#boldsharp a:visited {
+#boldsharp a:focus {
     color: #f7960b !important;
     background-color: #1C2C34 !important;
 }
