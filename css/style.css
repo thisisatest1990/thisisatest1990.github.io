@@ -97,6 +97,12 @@ div#boldsharp li {
 
 /*section*/
 
+.section-holder {
+    padding-bottom: 3.125rem;
+    padding-top: 3.125rem;
+    margin-bottom: .4375rem;
+    background: #1C2C34;
+}
 
 /*----------------------------------*/
 
