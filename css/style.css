@@ -28,6 +28,11 @@ i {
     color: #3ab8ad;
 }
 
+
+
+
+
+
 /*navbar*/
 
 .n-header {
@@ -38,6 +43,10 @@ i {
     box-shadow: 0 .125rem .25rem .25rem rgba(0, 0, 0, .6);
     background-color: #1C2C34;
     z-index: 1;   
+}
+
+.header-wrapper {
+   width: 1170px;  
 }
 
 .navbar.navbar-fixed-top {
