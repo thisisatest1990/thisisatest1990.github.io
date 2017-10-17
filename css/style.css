@@ -68,6 +68,22 @@ ul.nav.navbar-nav {
 }
 
 
+ul.nav.navbar-nav {
+    float: right !important;
+}
+
+#nav-links a {
+    font-family: "Helvetica", Sans-Serif !important;
+    font-weight: : 600 !important;
+    color: #fff !important;
+    letter-spacing: -1px !important;
+    font-size: 13pt;
+}
+
+#nav-links a:hover {
+    color: #f7960b !important;
+}
+
 
 /* --------------------------------- */
 
@@ -97,23 +113,6 @@ color: #FFF;
 
 .cont {
     margin-right: 28px;
-}
-
-
-ul.nav.navbar-nav {
-    float: right !important;
-}
-
-#boldsharp a {
-    font-family: "Helvetica", Sans-Serif !important;
-    font-weight: : 600 !important;
-    color: #fff !important;
-    letter-spacing: -1px !important;
-    font-size: 13pt;
-}
-
-#boldsharp a:hover {
-    color: #f7960b !important;
 }
 
 h2.topicon.sechead {
