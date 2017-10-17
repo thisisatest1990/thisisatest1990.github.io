@@ -104,7 +104,7 @@ div#boldsharp li {
     background: #1C2C34;
 }
 
-.container::after, .container::before {
+#section-holder::after {
     background: #071820;
     -webkit-box-shadow: 0 0 .1875rem 0 #91B5C5,inset 0 .0625rem .25rem 0 #071820;
     box-shadow: 0 0 .1875rem 0 #91B5C5,inset 0 .0625rem .25rem 0 #071820;
