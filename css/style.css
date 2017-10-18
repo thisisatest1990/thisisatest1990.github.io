@@ -176,7 +176,16 @@ blockquote, dd, div, dl, dt, form, h1, h2, h3, h4, h5, h6, li, ol, p, pre, td, t
 /*----------------------------------*/
 
 
-
+/* footer */
+.c-footer {
+    margin-top: .625rem;
+    background: #DAD0B9;
+    -webkit-box-shadow: inset 0 .625rem .6875rem 0 #9d8653;
+    box-shadow: inset 0 .625rem .6875rem 0 #9d8653;
+    position: relative;
+    padding: 2.5rem;
+}
+/*-------------------------------*/
 
 
 
