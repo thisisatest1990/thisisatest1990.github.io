@@ -41,7 +41,7 @@ i {
     padding-right: 2.5rem;
     -webkit-box-shadow: inset 0 .625rem .6875rem 0 #9d8653;
     box-shadow: inset 0 -.625rem .6875rem 0 #9d8653;
-    background-color: #1C2C34;
+    background-color: firebrick;
     z-index: 1;   
 }
 
