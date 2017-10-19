@@ -141,16 +141,16 @@ a:after {
     transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 
-/*navbar*/
+/*=========navbar=========*/
 
-.nav-show {
-    transition: opacity 800 ease-in-out;     
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
-    -webkit-box-shadow: inset 0 .625rem .6875rem 0 #9d8653;
-    box-shadow: inset 0 -.625rem .6875rem 0 #9d8653;
-    background-color: firebrick;
-    z-index: 1;   
+.nav-show {   
+   background-color: firebrick;
+   padding-left: 2.5rem;
+   padding-right: 2.5rem;
+   -webkit-box-shadow: inset 0 .625rem 2rem 0 #022233;
+   box-shadow: inset 0 -.625rem 2rem 0 #022233;
+   transition: opacity 800 ease-in-out;  
+   z-index: 1;   
 }
 
 .nav-logo {
