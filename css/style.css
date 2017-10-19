@@ -97,7 +97,7 @@ div#boldsharp li {
 
 /*section*/
 
-.c-matrix {
+.c-matrix, .c-matrix  {
     padding-top: 5rem;
     padding-bottom: 5rem;
 }
@@ -105,18 +105,21 @@ div#boldsharp li {
     position: relative;
     margin-bottom: .4375rem;
     padding: 2.5rem;
-        padding-top: 2.5rem;
-        padding-bottom: 2.5rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+   background-color: #07283e
 }
 
-.c-matrix__wrapper {
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
+.c-matrix1 {
+    position: relative;
+    margin-bottom: .4375rem;
+    padding: 2.5rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+   background-color: #2f3539
 }
-.c-matrix__wrapper {
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-}
+
+
 .c-matrix__wrapper {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
