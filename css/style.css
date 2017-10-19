@@ -158,13 +158,13 @@ blockquote, dd, div, dl, dt, form, h1, h2, h3, h4, h5, h6, li, ol, p, pre, td, t
         padding-left: 0px;
 }
 
-.c-matrix::after {
+.c-matrix::after, .c-matrix1::after {
     display: block;
     bottom: -6px;
     bottom: -.375rem;
 }
 
-.c-matrix::after {
+.c-matrix::after, .c-matrix1::after {
        content: "";
        position: absolute;
        top: 100%;
