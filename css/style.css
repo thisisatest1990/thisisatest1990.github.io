@@ -486,6 +486,10 @@ div#particles-js {
 
 
 
+.modal-open {
+   padding-right: 0px !important;  
+}
+
 
 
 
