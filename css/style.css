@@ -799,11 +799,3 @@ div#particles-js {
     color: #323232;
     font-size: 25px;
 }
-
-
-.modal {
-  display: block;
-  padding: 0 1em;
-  text-align: center;
-  width: 100%;
-}
