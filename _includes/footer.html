@@ -51,11 +51,46 @@
         })
      </script>
 
+       <style>
+            #btn-close-modal {
+                text-align: center;
+                cursor:pointer;
+                color:#fff;
+                border-radius:300px;
+                padding: 15px 25px;
+                font-size: 40px;
+                font-weight: 300;
+                border:2px solid #fff;
+                display:inline-block;
+                margin:20px;
+                float:right;
+            }
 
-<script>
-$("#demo").animatedModal({
-modalTarget:'modal-02',
-animatedIn:'lightSpeedIn',
-animatedOut:'bounceOutDown',
-color:'#3498db',
-</script>
+        </style>
+        <script>
+
+            //demo 01
+            $("#demo01").animatedModal();
+
+            //demo 02
+            $("#demo02").animatedModal({
+                modalTarget:'modal-02',
+                animatedIn:'lightSpeedIn',
+                animatedOut:'bounceOutDown',
+                color:'#3498db',
+                // Callbacks
+                beforeOpen: function() {
+                    console.log("The animation was called");
+                },           
+                afterOpen: function() {
+                    console.log("The animation is completed");
+                }, 
+                beforeClose: function() {
+                    console.log("The animation was called");
+                }, 
+                afterClose: function() {
+                    console.log("The animation is completed");
+                }
+            });
+
+        </script>
