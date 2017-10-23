@@ -935,6 +935,7 @@ div#particles-js {
 .modal-text {
     text-align: justify;
     color: #FFFFFF;
+   font-weight: 600;
 }
 
 .modal-text a {
