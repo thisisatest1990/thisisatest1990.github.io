@@ -1,6 +1,4 @@
-/* ==========================================================================
-   General styles
-   ========================================================================== */
+/* ==========General styles==========*/
 
 body, html {
     height: 100%;
@@ -31,12 +29,8 @@ i {
 
 /* Titles */
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1,h2,h3,h4,h5,h6 
+{
     font-family: Helvetica, Arial, sans-serif;
     font-weight: 600;
     color: orange;
@@ -153,6 +147,10 @@ a:after {
    z-index: 1;   
 }
 
+.navbar.navbar-fixed-top {
+    height: 60px;
+}
+
 .nav-logo {
    float: left;
    height: 50px;
@@ -164,24 +162,16 @@ a:after {
    color: white;
 }
 
-.navbar.navbar-fixed-top {
-    height: 60px;
-}
 
 ul.nav.navbar-nav {
     padding-top: 6px;
 }
 
-.topicon {
-    color: #f7960b;
-}
-
-
 ul.nav.navbar-nav {
     float: right !important;
 }
 
-#boldsharp a {
+#nav-links a {
     font-family: "Helvetica", Sans-Serif !important;
     font-weight: : 600 !important;
     color: #fff !important;
@@ -189,8 +179,8 @@ ul.nav.navbar-nav {
     font-size: 13pt;
 }
 
-#boldsharp a:hover,
-#boldsharp a:focus {
+#nav-links a:hover,
+#nav-links a:focus {
     color: #f7960b !important;
     background-color: #1C2C34 !important;
 }
@@ -294,6 +284,9 @@ blockquote, dd, div, dl, dt, form, h1, h2, h3, h4, h5, h6, li, ol, p, pre, td, t
 }
 /*-------------------------------*/
 
+.topicon {
+    color: #f7960b;
+}
 
 
 img.center-block.img-responsive.special-width {
