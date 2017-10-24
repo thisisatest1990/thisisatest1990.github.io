@@ -44,7 +44,7 @@ p {
     margin-bottom: 25px;
 }
 
-.centered {
+.p-centered {
     text-align: center;
     float: none;
     margin-left: auto;
@@ -257,8 +257,25 @@ ul.nav.navbar-nav {
        box-shadow: 0 0 .1875rem 0 #91B5C5,inset 0 .0625rem .25rem 0 #071820;
 }
 
-/*----------------------------------*/
+/* About section */
 
+.rowAbout {
+    margin-top: 30px;
+}
+
+#aboutText p {
+    font-size: 12pt;
+    font-weight: 100;
+    color: #ffffff;
+}
+
+.aboutImage {
+    width: 100%;
+}
+
+.aboutImage-ct {
+    max-width: 100%;
+}
 
 /* footer */
 .c-footer {
@@ -325,19 +342,6 @@ h3.topicon.sechead {
     text-align: left;
 }
 
-.headshot-ct {
-    max-width: 100%;
-}
-
-.headshot {
-    width: 100%;
-}
-
-#aboutSec p {
-    font-size: 12pt;
-    font-weight: 100;
-    color: #ffffff;
-}
 
 button {
     box-shadow: 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.2);
@@ -383,10 +387,6 @@ button {
 
 .row2 {
     margin-bottom: 80px;
-}
-
-.rowTop {
-    margin-top: 30px;
 }
 
 .bold {
