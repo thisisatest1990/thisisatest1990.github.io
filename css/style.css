@@ -200,16 +200,6 @@ ul.nav.navbar-nav {
    background-color: #07283e
 }
 
-.s-wrapper1 {
-    position: relative;
-    margin-bottom: .4375rem;
-    padding: 2.5rem;
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
-   background-color: #2f3539
-}
-
-
 .s-wrapper__wrap {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
@@ -228,33 +218,26 @@ ul.nav.navbar-nav {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
 }
-.s-wrapper__item, .s-wrapper__wrapper {
+.s-wrapper__wrapper {
     padding-right: .625rem;
     padding-left: .625rem;
 }
 .s-wrapper__wrap {
     -webkit-box-direction: normal;
 }
-.c-footer__wrapper, .s-wrapper__wrap{
+
+.s-wrapper__wrap{
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
 }
-blockquote, dd, div, dl, dt, form, h1, h2, h3, h4, h5, h6, li, ol, p, pre, td, th, ul {
-    margin: 0;
-        margin-right: 0px;
-        margin-left: 0px;
-    padding: 0;
-        padding-right: 0px;
-        padding-left: 0px;
-}
 
-.s-wrapper::after, .s-wrapper1::after {
+.s-wrapper::after {
     display: block;
     bottom: -6px;
     bottom: -.375rem;
 }
 
-.s-wrapper::after, .s-wrapper1::after {
+.s-wrapper::after  {
        content: "";
        position: absolute;
        top: 100%;
