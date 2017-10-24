@@ -116,6 +116,10 @@ blockquote, dd, div, dl, dt, form, h1, h2, h3, h4, h5, h6, li, ol, p, pre, td, t
         padding-left: 0px;
 }
 
+img.center-block.img-responsive.special-width {
+    width: 1100px;
+    padding-top: 120px;
+}
 
 /* Links */
 a {
@@ -257,6 +261,22 @@ ul.nav.navbar-nav {
        box-shadow: 0 0 .1875rem 0 #91B5C5,inset 0 .0625rem .25rem 0 #071820;
 }
 
+.s-icon {
+    color: #f7960b;
+}
+
+h2.s-icon.s-head {
+    font-weight: 500;
+    letter-spacing: -1px;
+    font-size: 28px;
+}
+
+h3.s-icon.s-head {
+    font-weight: 300;
+    letter-spacing: -1px;
+    font-size: 18pt;
+}
+
 /* About section */
 
 .rowAbout {
@@ -277,6 +297,23 @@ ul.nav.navbar-nav {
     max-width: 100%;
 }
 
+/* Skills Section */
+
+.inverted {
+    -webkit-filter: invert(30%);
+    filter: invert(30%);
+}
+
+.aboutLineHeight {
+    line-height: 40px;
+}
+
+.aboutFont {
+font-size: 20px;
+font-weight: 800;
+color: #FFF;
+}
+
 /* footer */
 .c-footer {
     margin-top: .625rem;
@@ -288,40 +325,8 @@ ul.nav.navbar-nav {
 }
 /*-------------------------------*/
 
-.topicon {
-    color: #f7960b;
-}
-
-
-img.center-block.img-responsive.special-width {
-    width: 1100px;
-    padding-top: 120px;
-}
-
-.special-line-height {
-    line-height: 20px;
-}
-
-.small-font {
-font-size: 20px;
-font-weight: 800;
-color: #FFF;
-}
-
 .cont {
     margin-right: 28px;
-}
-
-h2.topicon.sechead {
-    font-weight: 500;
-    letter-spacing: -1px;
-    font-size: 28px;
-}
-
-h3.topicon.sechead {
-    font-weight: 300;
-    letter-spacing: -1px;
-    font-size: 18pt;
 }
 
 .bold {
@@ -411,10 +416,7 @@ text-align: center;
 font-size: large;
 }
 
-.inverted {
-    -webkit-filter: invert(30%);
-    filter: invert(30%);
-}
+
 
 .tintGreen {
     background: #0000;
