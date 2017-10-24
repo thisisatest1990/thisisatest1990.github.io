@@ -56,6 +56,12 @@ p {
     color: #3498db;
 }
 
+.para-p {
+    text-align: justify;
+	font-size: medium;
+	color: white;
+}
+
 strong {
     font-weight: 700;
 }
@@ -574,8 +580,6 @@ transition: all 0.2s;
     color: #f7960b;
 }
 
-/**/
-
 
 
 .cont {
@@ -954,13 +958,6 @@ div#particles-js {
     line-height: 120px !important;
     font-size: 50px !important;
     opacity: 0.8;
-}
-
-
-
-
-/*No Scroll Classes*/
-
 }
 
 /*Design Process Section Styles*/
