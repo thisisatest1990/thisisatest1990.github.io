@@ -121,6 +121,15 @@ img.center-block.img-responsive.special-width {
     padding-top: 120px;
 }
 
+.row1 {
+    margin-top: 15px;
+}
+
+figure {
+    box-shadow: 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.2);
+   border-radius: 15%;
+}
+
 /* Links */
 a {
     color: #46356e;
@@ -277,7 +286,7 @@ h3.s-icon.s-head {
     font-size: 18pt;
 }
 
-/* About section */
+/* Inner section */
 
 .rowAbout {
     margin-top: 30px;
@@ -297,8 +306,6 @@ h3.s-icon.s-head {
     max-width: 100%;
 }
 
-/* Skills Section */
-
 .inverted {
     -webkit-filter: invert(30%);
     filter: invert(30%);
@@ -312,6 +319,95 @@ h3.s-icon.s-head {
 font-size: 20px;
 font-weight: 800;
 color: #FFF;
+}
+
+.exp-article {
+    text-align: left;
+}
+
+.project-box figure {
+    margin: 0;
+    position: relative;
+    cursor: pointer;
+}
+
+.project-box  figure img {
+    width: 100%;
+    display: block;
+    position: relative;
+}
+
+.project-box  figcaption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    color: #323232;
+    background: #2772DB;
+}
+
+.project-box  figcaption h5 {
+    margin: 0;
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    color: #323232;
+    font-weight: 700;
+    text-align: left;
+    letter-spacing: 2px;
+}
+
+.project-box  figcaption a {
+    text-align: left;
+    padding: 5px 10px;
+    margin-left: 20px;
+    display: inline-block;
+    background: #2f2f2f;
+    color: #323232;
+    font-size: 13px;
+}
+
+.tintedScreen {
+    background: #0000;
+}
+
+.tintedImage {
+    opacity: 0.5;
+   border-radius: 15%;
+    filter: alpha(opacity=20);
+    -webkit-filter: grayscale(100%);
+    /*Chrome, Safari, Opera*/
+    filter: grayscale(100%);
+}
+
+.tintedImage:hover {
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+    opacity: 1;
+    filter: alpha(opacity=100);
+    -webkit-filter: grayscale(0%);
+    /*Chrome, Safari, Opera*/
+    filter: grayscale(0%);
+}
+
+.projectCaption {
+    width: 100%;
+    height: 35px;
+}
+
+.projectCaption h5 {
+margin: 0;
+padding-left: 5px;
+padding-top: 10px;
+color: orange;
+font-weight: 700;
+letter-spacing: 2px;
+vertical-align: middle;
+text-align: center;
+font-size: large;
 }
 
 /* footer */
@@ -386,68 +482,10 @@ button {
     border-color: transparent !important;
 }
 
-.row1 {
-    margin-top: 15px;
-}
-
-.row2 {
-    margin-bottom: 80px;
-}
-
 .bold {
     font-weight: 600;
 }
 
-
-.caption-photo {
-    width: 100%;
-    height: 35px;
-}
-
-.caption-photo h5 {
-margin: 0;
-padding-left: 5px;
-padding-top: 10px;
-color: orange;
-font-weight: 700;
-letter-spacing: 2px;
-vertical-align: middle;
-text-align: center;
-font-size: large;
-}
-
-
-
-.tintGreen {
-    background: #0000;
-}
-
-figure {
-    box-shadow: 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.2);
-   border-radius: 15%;
-}
-
-.tint_image {
-    opacity: 0.5;
-   border-radius: 15%;
-    filter: alpha(opacity=20);
-    -webkit-filter: grayscale(100%);
-    /*Chrome, Safari, Opera*/
-    filter: grayscale(100%);
-}
-
-.tint_image:hover {
-    -moz-transition: all 1s;
-    -webkit-transition: all 1s;
-    -ms-transition: all 1s;
-    -o-transition: all 1s;
-    transition: all 1s;
-    opacity: 1;
-    filter: alpha(opacity=100);
-    -webkit-filter: grayscale(0%);
-    /*Chrome, Safari, Opera*/
-    filter: grayscale(0%);
-}
 
 div#particles-js {
     position: absolute;
@@ -684,53 +722,6 @@ div#particles-js {
 
 
 /* ==========================================================================
-   Image Mask
-   ========================================================================== */
-
-.grid figure {
-    margin: 0;
-    position: relative;
-    cursor: pointer;
-}
-
-.grid figure img {
-    width: 100%;
-    display: block;
-    position: relative;
-}
-
-.grid figcaption {
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding: 20px;
-    color: #323232;
-    background: #2772DB;
-}
-
-.grid figcaption h5 {
-    margin: 0;
-    padding-top: 0px;
-    padding-left: 20px;
-    padding-bottom: 5px;
-    color: #323232;
-    font-weight: 700;
-    text-align: left;
-    letter-spacing: 2px;
-}
-
-.grid figcaption a {
-    text-align: left;
-    padding: 5px 10px;
-    margin-left: 20px;
-    display: inline-block;
-    background: #2f2f2f;
-    color: #323232;
-    font-size: 13px;
-}
-
-
-/* ==========================================================================
    Box Sections
    ========================================================================== */
 
@@ -870,11 +861,6 @@ div#particles-js {
 
 .fa {
     cursor: auto;
-}
-
-
-.article-link {
-    text-align: left;
 }
 
 /* -- Full Modal Overrides -- */
