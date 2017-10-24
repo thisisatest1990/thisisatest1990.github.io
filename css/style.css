@@ -508,6 +508,10 @@ transition: all 0.2s;
     opacity: 1;
 }
 
+.modal {
+	background: rgba(7, 40, 62, 0.88) none repeat scroll 0% 0%;
+}
+
 /* Close Modal*/
 
 .modalClose {
