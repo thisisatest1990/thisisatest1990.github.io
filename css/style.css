@@ -162,7 +162,6 @@ a:after {
    color: white;
 }
 
-
 ul.nav.navbar-nav {
     padding-top: 6px;
 }
@@ -185,17 +184,14 @@ ul.nav.navbar-nav {
     background-color: #1C2C34 !important;
 }
 
-/* ---------------------------------*/
-
-
 
 /*section*/
 
-.c-matrix, .c-matrix  {
+.s-wrapper, .s-wrapper  {
     padding-top: 5rem;
     padding-bottom: 5rem;
 }
-.c-matrix {
+.s-wrapper {
     position: relative;
     margin-bottom: .4375rem;
     padding: 2.5rem;
@@ -204,7 +200,7 @@ ul.nav.navbar-nav {
    background-color: #07283e
 }
 
-.c-matrix1 {
+.s-wrapper1 {
     position: relative;
     margin-bottom: .4375rem;
     padding: 2.5rem;
@@ -214,11 +210,11 @@ ul.nav.navbar-nav {
 }
 
 
-.c-matrix__wrapper {
+.s-wrapper__wrap {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
 }
-.c-matrix__wrapper {
+.s-wrapper__wrap {
     max-width: 1600px;
     max-width: 100rem;
     margin-right: auto;
@@ -228,18 +224,18 @@ ul.nav.navbar-nav {
     display: flex;
     -ms-flex-flow: row wrap;
     flex-flow: row wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
 }
-.c-matrix__item, .c-matrix__wrapper {
+.s-wrapper__item, .s-wrapper__wrapper {
     padding-right: .625rem;
     padding-left: .625rem;
 }
-.c-banner__row, .c-cookie-consent, .c-email-signup__form, .c-image-plate__wrapper, .c-matrix__wrapper, .c-menu--style-stacked .c-menu__nav-list, .c-menu__nav-list, .c-package__row, .p-login .login-social {
+.s-wrapper__wrap {
     -webkit-box-direction: normal;
 }
-.c-banner__row, .c-cookie-consent, .c-email-signup__form, .c-footer__wrapper, .c-image-plate__wrapper, .c-matrix__wrapper, .c-menu__nav-list, .p-login .login-social {
+.c-footer__wrapper, .s-wrapper__wrap{
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
 }
@@ -252,13 +248,13 @@ blockquote, dd, div, dl, dt, form, h1, h2, h3, h4, h5, h6, li, ol, p, pre, td, t
         padding-left: 0px;
 }
 
-.c-matrix::after, .c-matrix1::after {
+.s-wrapper::after, .s-wrapper1::after {
     display: block;
     bottom: -6px;
     bottom: -.375rem;
 }
 
-.c-matrix::after, .c-matrix1::after {
+.s-wrapper::after, .s-wrapper1::after {
        content: "";
        position: absolute;
        top: 100%;
