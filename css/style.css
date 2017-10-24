@@ -590,147 +590,17 @@ transition: all 0.2s;
     font-weight: bold;
 }
 
-.firstsec {
-    margin-top: 100px;
-}
 
-.purplesec {
-    margin-top: 10px;
-    color: #3fbeb0;
-    font-weight: bold;
-    letter-spacing: -1px;
-    font-size: 28px;
-    letter-spacing: 1px;
-    text-align: left;
-}
 
 .bold {
     font-weight: 600;
 }
 
 
-div#particles-js {
-    position: absolute;
-    top: 0px;
-    width: 100%;
-    height: 100vh;
-    z-index: -100;
-}
-
 .dividerLine {
     max-width: 334px;
     height: 1px;
     border-top: 1px #acaeaf solid;
-}
-
-
-/* ==========================================================================
-   Wrap Sections
-   ========================================================================== */
-
-.headerwrap {
-    /*  background: url(../img/bgjuanwhite.png) no-repeat center top;
-    text-align:center;
-    background-attachment: relative;
-    background-position: center center;
-    /*min-height: 580px;*/
-    min-height: 100vh;
-
-    /*    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
-
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;*/
-}
-
-#particle-js {
-    position: absolute;
-    width: 100%;
-    max-height: 700px;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: 50% 50%;
-}
-
-.headerwrap h1 {
-    color: #323232;
-    margin-top: 90px;
-    padding-bottom: 30px;
-    letter-spacing: 8px;
-    font-size: 100px;
-    font-weight: bold;
-    text-shadow: 2px 2px 2px #000;
-}
-
-.headerwrap p {
-    color: #3ab8ad;
-    font-size: 35px;
-    font-weight: 400;
-    text-align: center;
-    /*line-height: 45px;*/
-    /*letter-spacing: 3px;*/
-    padding-top: 10px;
-}
-
-#greywrap {
-    /*formerly #FDFDFD*/
-    background: #FFFFFF;
-    margin-top: -30px;
-    padding-top: 40px;
-    /*  border-bottom: 1px solid #ddd;*/
-    text-align: center;
-    /*    -webkit-box-shadow: 0px 0px 67px 36px rgba(3,10,18,1);
-    -moz-box-shadow: 0px 0px 67px 36px rgba(3,10,18,1);
-    box-shadow: 0px 0px 67px 36px rgba(3,10,18,1);*/
-}
-
-#greywrap .callout {
-    margin-bottom: 20px;
-}
-
-#greywrap p {
-    margin-left: 30px;
-    margin-right: 30px;
-    /*letter-spacing: 1px;*/
-    padding-top: 15px;
-    padding-bottom: 15px;
-    text-align: justify;
-    -moz-text-align-last: center;
-    /* Code for Firefox */
-    text-align-last: center;
-}
-
-#greywrap .icon {
-    font-size: 60px;
-    line-height: 30px;
-    margin-bottom: 10px;
-}
-
-#purplewrap {
-    background: -moz-linear-gradient(90deg, #5D4796 0%, #463570 100%);
-    /* ff3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #463570), color-stop(100%, #5D4796));
-    /* safari4+,chrome */
-    background: -webkit-linear-gradient(90deg, #5D4796 0%, #463570 100%);
-    /* safari5.1+,chrome10+ */
-    background: -o-linear-gradient(90deg, #5D4796 0%, #463570 100%);
-    /* opera 11.10+ */
-    background: -ms-linear-gradient(90deg, #5D4796 0%, #463570 100%);
-    /* ie10+ */
-    background: linear-gradient(0deg, #5D4796 0%, #463570 100%);
-    /* w3c */
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#463570', endColorstr='#5D4796', GradientType=0);
-    /* ie6-9 */
-    padding-top: 40px;
-    /*  border-bottom: 1px solid #ddd;*/
-    text-align: left;
-    /*    -webkit-box-shadow: 0px 0px 67px 36px rgba(3,10,18,1);
-    -moz-box-shadow: 0px 0px 67px 36px rgba(3,10,18,1);
-    box-shadow: 0px 0px 67px 36px rgba(3,10,18,1);*/
 }
 
 .container::after, .container::before {
@@ -748,154 +618,6 @@ div#particles-js {
     right: 0;
 }
 
-
- #purplewrap .callout {
-    margin-bottom: 20px;
-}
-
-#purplewrap p {
-    padding: 15px;
-    text-align: left;
-}
-
-#purplewrap .icon {
-    font-size: 60px;
-    line-height: 30px;
-    margin-bottom: 10px;
-}
-
-
-#yellowwrap {
-    padding-top: 40px;
-    background: -moz-linear-gradient(90deg, #42CFC3 0%, #3ab8ad 100%);
-    /* ff3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #3ab8ad), color-stop(100%, #42CFC3));
-    /* safari4+,chrome */
-    background: -webkit-linear-gradient(90deg, #42CFC3 0%, #3ab8ad 100%);
-    /* safari5.1+,chrome10+ */
-    background: -o-linear-gradient(90deg, #42CFC3 0%, #3ab8ad 100%);
-    /* opera 11.10+ */
-    background: -ms-linear-gradient(90deg, #42CFC3 0%, #3ab8ad 100%);
-    /* ie10+ */
-    background: linear-gradient(0deg, #42CFC3 0%, #3ab8ad 100%);
-    /* w3c */
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#3ab8ad', endColorstr='#42CFC3', GradientType=0);
-    /* ie6-9 */
-}
-
-#yellowwrap .callout {
-    margin-bottom: 20px;
-}
-
-#skillwrapper {
-    padding-top: 40px;
-    background: -moz-linear-gradient(90deg, #5DACE6 0%, #2daeea 100%);
-    /* ff3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #5DACE6), color-stop(100%, #2daeea));
-    /* safari4+,chrome */
-    background: -webkit-linear-gradient(90deg, #5DACE6 0%, #2daeea 100%);
-    /* safari5.1+,chrome10+ */
-    background: -o-linear-gradient(90deg, #5DACE6 0%, #2daeea 100%);
-    /* opera 11.10+ */
-    background: -ms-linear-gradient(90deg, #5DACE6 0%, #2daeea 100%);
-    /* ie10+ */
-    background: linear-gradient(0deg, #5DACE6 0%, #2daeea 100%);
-    /* w3c */
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#2daeea', endColorstr='#5DACE6', GradientType=0);
-    /* ie6-9 */
-}
-
-#footerwrap {
-    background: -moz-linear-gradient(90deg, #5D4796 0%, #463570 100%);
-    /* ff3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #463570), color-stop(100%, #5D4796));
-    /* safari4+,chrome */
-    background: -webkit-linear-gradient(90deg, #5D4796 0%, #463570 100%);
-    /* safari5.1+,chrome10+ */
-    background: -o-linear-gradient(90deg, #5D4796 0%, #463570 100%);
-    /* opera 11.10+ */
-    background: -ms-linear-gradient(90deg, #5D4796 0%, #463570 100%);
-    /* ie10+ */
-    background: linear-gradient(0deg, #5D4796 0%, #463570 100%);
-    /* w3c */
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#463570', endColorstr='#5D4796', GradientType=0);
-    /* ie6-9 */
-    margin-top: 0px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-align: center;
-}
-
-#footerwrap h4 {
-    color: #FFFFFF;
-}
-
-/* ==========================================================================
-   Box Sections
-   ========================================================================== */
-
-.#323232 h1 {
-    padding-top: 35px;
-}
-
-.#323232 p {
-    padding-top: 25px;
-}
-
-
-/* ==========================================================================
-   Box Sections
-   ========================================================================== */
-
-.#323232 h1 {
-    padding-top: 35px;
-}
-
-.#323232 p {
-    padding-top: 25px;
-}
-
-
-/* Section Dividers */
-
-.section-divider {
-    z-index: 999;
-    width: 100%;
-    display: table;
-    max-height: 450px;
-    /*    border-bottom: 2px solid #E6EAED;*/
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -ms-box-sizing: border-box;
-    box-sizing: border-box;
-    padding-top: 30px;
-    padding-bottom: 70px;
-    margin-top: 45px;
-    background-position: center center;
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-attachment: relative;
-    text-align: center;
-}
-
-.textdivider h1 {
-    padding-top: 70px;
-    color: #323232;
-    font-size: 40px;
-}
-
-.textdivider p {
-    color: #323232;
-    font-size: 25px;
-}
-
-
 /*Modals*/
 
 .modal-body {
@@ -906,16 +628,6 @@ div#particles-js {
     text-align: justify;
     margin-bottom: 15px;
 }
-
-/*Animations*/
-
-
-/*******************************
-* MODAL AS LEFT/RIGHT SIDEBAR
-* Add "left" or "right" in modal parent div, after class="modal".
-*******************************/
-
-/* ----- MODAL STYLE ----- */
 
 .modal-content {
     border-radius: 0;
@@ -958,14 +670,6 @@ div#particles-js {
     line-height: 120px !important;
     font-size: 50px !important;
     opacity: 0.8;
-}
-
-/*Design Process Section Styles*/
-
-.process-p {
-    text-align: justify;
-font-size: medium;
-color: white;
 }
 
 /* Model */
