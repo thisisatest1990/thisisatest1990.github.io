@@ -107,6 +107,15 @@ blockquote cite:before {
     content: "-- "
 }
 
+blockquote, dd, div, dl, dt, form, h1, h2, h3, h4, h5, h6, li, ol, p, pre, td, th, ul {
+    margin: 0;
+        margin-right: 0px;
+        margin-left: 0px;
+    padding: 0;
+        padding-right: 0px;
+        padding-left: 0px;
+}
+
 
 /* Links */
 a {
@@ -225,7 +234,6 @@ ul.nav.navbar-nav {
 .s-wrapper__wrap {
     -webkit-box-direction: normal;
 }
-
 .s-wrapper__wrap{
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -237,7 +245,7 @@ ul.nav.navbar-nav {
     bottom: -.375rem;
 }
 
-.s-wrapper::after  {
+.s-wrapper::after {
        content: "";
        position: absolute;
        top: 100%;
