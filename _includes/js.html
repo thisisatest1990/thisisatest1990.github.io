@@ -19,7 +19,9 @@
 		
 		<script type="text/javascript">
 	$(window).on('load', function() {
-				$('body').delay(3500).css({
+				$('#status').fadeOut();
+				$('#preloader').delay(3500).fadeOut('slow');
+				$('body').delay(350).css({
 				'overflow': 'visible'
 				});
 			})
