@@ -705,3 +705,171 @@ transition: all 0.2s;
 .modal-open {
    padding-right: 0px !important;  
 }
+
+/* Preloader */
+
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+    /* change if the mask should have another color then white */
+    z-index: 2000;
+    /* makes sure it stays on top */
+}
+
+#status {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    /* centers the loading animation horizontally one the screen */
+    top: 50%;
+    /* centers the loading animation vertically one the screen */
+    background-image: url(../img/status.gif);
+    /* path to your loading animation */
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: -100px 0 0 -100px;
+    /* is width and height divided by two */
+}
+
+.juan img {
+    width: 100%;
+    margin-left: 30px;
+}
+
+.brand-div {
+    padding-bottom: 25px;
+}
+
+.btn-contact {
+    width: 100%;
+}
+
+
+.btn-ct-top {
+    max-width: 520px;
+    margin: 20px auto;
+}
+
+.btn-ct-bottom {
+    max-width: 520px;
+    margin: 20px auto;
+    margin-bottom: 80px;
+}
+
+@media screen and (max-width:1050px),
+screen and (max-device-width:1050px) {
+    body .header {
+        background-attachment: scroll;
+    }
+}
+
+@media screen and (min-device-width: 1701px) {
+    .dividerLine {
+        width: 380px;
+    }
+    p.headerlead {
+        font-size: 18px;
+    }
+    p.headerName {
+        font-size: 35px;
+    }
+    div.headerbrand {
+       /* padding-right: 5%;*/
+    }
+}
+
+@media screen and (min-device-width: 2000px) {
+    .juan img {
+        margin-left: 220px;
+        width: 880px;
+    }
+    div.headerbrand {
+        padding-top: 36vh;
+    }
+    .juan {
+        padding-top: 100px;
+    }
+}
+
+
+/*iPad, Phones, etc.*/
+
+@media screen and (max-width: 800px) {
+    h2.centered.sechead {
+        font-weight: bold;
+        letter-spacing: -1px;
+        font-size: 19px;
+        letter-spacing: 1px;
+    }
+    .juan img {
+        margin-left: 0px;
+        width: 90%;
+        padding-top: 3vh !important;
+    }
+    div.headerbrand {
+        padding-top: 2% !important;
+        padding-right: 2%;
+    }
+    .brand-div {
+        width: 250px !important;
+    }
+
+    .scroller {
+        display: none;
+    }
+
+
+}
+
+@media screen and (max-width: 1024px) {
+    .juan img {
+        padding-top: 10vh;
+    }
+    img.center-block.img-responsive {
+        width: 200px;
+    }
+    .dividerLine {
+        width: 310px;
+    }
+    p.headerlead {
+        padding-top: 8px;
+        font-size: 14px;
+        line-height: 25px;
+        width: 310px;
+    }
+    p.headerName {
+        padding-top: 0px;
+        font-size: 26px;
+    }
+    div.headerbrand {
+        padding-top: 26vh;
+    }
+}
+
+
+/*ipad portrait*/
+
+@media only screen and (min-device-width:768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    .header {
+        background-attachment: scroll;
+    }
+}
+
+@media screen and (max-width:769px) {
+    #headerwrap h1 {
+        font-size: 80px;
+    }
+    #headerwrap p {
+        font-size: 30px;
+        line-height: 38px;
+    }
+
+    .footer-last {
+        margin-bottom: 20px;
+    }
+}
