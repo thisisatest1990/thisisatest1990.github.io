@@ -18,12 +18,13 @@
 		</script>
 		
 		<script type="text/javascript">
-			$(window).on('load', function() {
-				$('#status').fadeOut();
-				$('#preloader').delay(3500).fadeOut('slow');
-				$('body').delay(350).css({
-				'overflow': 'visible'
-				});
-			})
-			$('[data-toggle="popover"]').popover();
+			
+$(document).ready(function() {
+ 
+  // Fakes the loading setting a timeout
+    setTimeout(function() {
+        $('body').addClass('loaded');
+    }, 3500);
+ 
+});			
 		</script>
