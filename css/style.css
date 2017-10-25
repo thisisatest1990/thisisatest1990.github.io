@@ -709,56 +709,31 @@ transition: all 0.2s;
 /* Preloader */
 
 #preloader {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #fff;
-    /* change if the mask should have another color then white */
-    z-index: 2000;
-    /* makes sure it stays on top */
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  /* change if the mask should have another color then white */
+  z-index: 99;
+  /* makes sure it stays on top */
 }
 
 #status {
-    width: 200px;
-    height: 200px;
-    position: absolute;
-    left: 50%;
-    /* centers the loading animation horizontally one the screen */
-    top: 50%;
-    /* centers the loading animation vertically one the screen */
-    background-image: url(../img/status.gif);
-    /* path to your loading animation */
-    background-repeat: no-repeat;
-    background-position: center;
-    margin: -100px 0 0 -100px;
-    /* is width and height divided by two */
-}
-
-.juan img {
-    width: 100%;
-    margin-left: 30px;
-}
-
-.brand-div {
-    padding-bottom: 25px;
-}
-
-.btn-contact {
-    width: 100%;
-}
-
-
-.btn-ct-top {
-    max-width: 520px;
-    margin: 20px auto;
-}
-
-.btn-ct-bottom {
-    max-width: 520px;
-    margin: 20px auto;
-    margin-bottom: 80px;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 50%;
+  /* centers the loading animation horizontally one the screen */
+  top: 50%;
+  /* centers the loading animation vertically one the screen */
+  background-image: url(https://raw.githubusercontent.com/niklausgerber/PreLoadMe/master/img/status.gif);
+  /* path to your loading animation */
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: -100px 0 0 -100px;
+  /* is width and height divided by two */
 }
 
 @media screen and (max-width:1050px),
