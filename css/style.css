@@ -722,3 +722,7 @@ transition: all 0.2s;
 #loader-wrapper .loader-section.section-right {
     right: 0;
 }
+
+#loader {
+    z-index: 1001; /* anything higher than z-index: 1000 of .loader-section */
+}
