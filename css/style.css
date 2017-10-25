@@ -713,10 +713,8 @@ transition: all 0.2s;
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #fff;
-    /* change if the mask should have another color then white */
+    background-color: #01050ee6;
     z-index: 2000;
-    /* makes sure it stays on top */
 }
 
 #status {
@@ -724,15 +722,11 @@ transition: all 0.2s;
     height: 200px;
     position: absolute;
     left: 50%;
-    /* centers the loading animation horizontally one the screen */
     top: 50%;
-    /* centers the loading animation vertically one the screen */
     background-image: url(../images/loader.gif);
-    /* path to your loading animation */
     background-repeat: no-repeat;
     background-position: center;
     margin: -100px 0 0 -100px;
-    /* is width and height divided by two */
 }
 
 
@@ -823,28 +817,5 @@ screen and (max-device-width:1050px) {
     }
     div.headerbrand {
         padding-top: 26vh;
-    }
-}
-
-
-/*ipad portrait*/
-
-@media only screen and (min-device-width:768px) and (max-device-width: 1024px) and (orientation: portrait) {
-    .header {
-        background-attachment: scroll;
-    }
-}
-
-@media screen and (max-width:769px) {
-    #headerwrap h1 {
-        font-size: 80px;
-    }
-    #headerwrap p {
-        font-size: 30px;
-        line-height: 38px;
-    }
-
-    .footer-last {
-        margin-bottom: 20px;
     }
 }
