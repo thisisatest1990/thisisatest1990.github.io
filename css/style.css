@@ -715,9 +715,7 @@ transition: all 0.2s;
     right: 0;
     bottom: 0;
     background-color: #fff;
-    /* change if the mask should have another color then white */
     z-index: 2000;
-    /* makes sure it stays on top */
 }
 
 #status {
@@ -725,15 +723,11 @@ transition: all 0.2s;
     height: 200px;
     position: absolute;
     left: 50%;
-    /* centers the loading animation horizontally one the screen */
     top: 50%;
-    /* centers the loading animation vertically one the screen */
-    background-image: url(images/loader.gif);
-    /* path to your loading animation */
+    background-image: url(../images/loader.gif);
     background-repeat: no-repeat;
     background-position: center;
     margin: -100px 0 0 -100px;
-    /* is width and height divided by two */
 }
 
 @media screen and (max-width:1050px),
